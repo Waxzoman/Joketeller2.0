@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
-import robotScene from '../assets/3d/robot.glb'
+import robotScene from '../../assets/3d/robot.glb'
 import { act } from "@react-three/fiber";
 
 export default function Robot({currentAnimation, ...props}) {
