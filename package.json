@@ -6,6 +6,7 @@
   "homepage": "https://Waxzoman.github.io/Joketeller2.0",
   "scripts": {
     "dev": "vite",
+    "start": "serve dist",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
