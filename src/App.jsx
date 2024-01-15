@@ -1,7 +1,7 @@
 import { useRef, Suspense, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Stage, OrbitControls } from '@react-three/drei';
-import Robot from './models/robot';
+import Robot from './models/Robot';
 
 
 import './App.css'
